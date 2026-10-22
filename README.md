@@ -29,3 +29,10 @@ A lightweight web application built with **Vanilla JavaScript**, **HTML/CSS**, a
 ├── register.html     # Register point
 ├── register.js       # Supabase Requests For Registering
 └── README.md         # Project documentation
+```
+
+---
+
+## Credits
+- Me
+- Gemini AI(For Backend Supabase Purposes)
