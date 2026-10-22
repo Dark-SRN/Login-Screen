@@ -1,0 +1,63 @@
+:root {
+  --bg-color: #0f172a;
+  --card-bg: #1e293b;
+  --text-color: #f8fafc;
+  --subtext-color: #94a3b8;
+  --primary-color: #38bdf8;
+  --link-color: #0051ff;
+  --primary-hover: #0284c7;
+  --border-color: #334155;
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+/*borrowed from Gemini*/
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    min-height: 100svh;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 35px;
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    border: 2px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    max-width: 50svb
+}
+
+.card input {
+    margin-bottom: 10px;    
+    background-color: #0f172a;
+    color: var(--text-color);
+}
+.card label {
+    color: var(--text-color);
+}
+.showpassword {
+    display:inline;
+}
+
+.card button {
+    border-radius: 12px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.card a {
+    align-self: center;
+    color: var(--link-color);
+    margin-top: 10px;
+}

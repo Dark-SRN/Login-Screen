@@ -1,0 +1,75 @@
+/* CSS Custom Variables for Theme Colors */
+:root {
+  --bg-color: #f4f6f9;
+  --card-bg: #ffffff;
+  --text-color: #1f2937;
+  --subtext-color: #6b7280;
+  --primary-color: #4f46e5;
+  --primary-hover: #4338ca;
+  --border-color: #e5e7eb;
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Dark Mode Overrides */
+[data-theme="dark"] {
+  --bg-color: #0f172a;
+  --card-bg: #1e293b;
+  --text-color: #f8fafc;
+  --subtext-color: #94a3b8;
+  --primary-color: #38bdf8;
+  --primary-hover: #0284c7;
+  --border-color: #334155;
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+/* borrowed from Gemini*/
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+}
+/*borrow start*/
+.toggle-btn {
+  position: relative;
+  width: 64px;
+  height: 34px;
+  background-color: var(--border-color);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.slider {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 28px;
+  height: 28px;
+  background-color: var(--card-bg);
+  border-radius: 50%;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Move slider when dark mode is active */
+[data-theme="dark"] .slider {
+  transform: translateX(30px);
+}
+ .icon {
+  font-size: 16px;
+  z-index: 1;
+}
+/*borrowed*/
+
+.navbar {
+    padding: 20px;
+    border-bottom: 2px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+}
