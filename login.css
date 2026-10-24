@@ -68,7 +68,7 @@ body {
 [data-theme="dark"] .sun {
   visibility: hidden;
 }
- .moon:not([data-theme="dark"]){
+ .moon:not([data-theme]){
   visibility: hidden;
 }
 /*borrowed*/
