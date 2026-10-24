@@ -55,9 +55,6 @@ body {
   border-radius: 50%;
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  .moon {
-    visibility: hidden;
-  }
 }
 
 /* Move slider when dark mode is active */
