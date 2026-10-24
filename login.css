@@ -66,6 +66,18 @@ body {
   z-index: 1;
 }
 /*borrowed*/
+.sun {
+  display: inline;
+}
+[data-theme="dark"] .sun {
+  display: none;
+}
+.moon {
+  display: none;
+}
+[data-theme="dark"] .moon {
+  display: inline;
+}
 
 .navbar {
     padding: 20px;
