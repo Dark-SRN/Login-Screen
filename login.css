@@ -62,6 +62,10 @@ body {
 [data-theme="dark"] .slider {
   transform: translateX(30px);
 }
+.icon {
+  font-size: 16px;
+  position: relative;
+}
 /*borrowed*/
 [data-theme="dark"] .sun {
   z-index: -11;
