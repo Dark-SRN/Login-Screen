@@ -65,20 +65,17 @@ body {
 .icon {
   font-size: 16px;
   z-index: 1;
+  opacity: 100;
 }
 /*borrowed*/
 [data-theme="dark"] .sun {
   opacity: 0;
 }
-.sun:not([data-theme="dark"]) {
-  opacity: 100;
-}
+
 .moon:not([data-theme="dark"]) {
   opacity:0 ;
 }
-[data-theme="dark"] .moon {
-  opacity: 100;
-}
+
 .navbar {
     padding: 20px;
     border-bottom: 2px solid var(--border-color);
