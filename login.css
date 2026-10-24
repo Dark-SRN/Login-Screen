@@ -72,7 +72,9 @@ body {
 .moon:not([data-theme="dark"]) {
   display: none;
 }
-
+[data-theme="dark"] .moon {
+  display: initial;
+}
 .navbar {
     padding: 20px;
     border-bottom: 2px solid var(--border-color);
