@@ -65,10 +65,9 @@ body {
 .icon {
   font-size: 16px;
   z-index: 1;
-  opacity: 100;
 }
 /*borrowed*/
-[data-theme="dark"] .sun {
+.sun {
   opacity: 0;
 }
 
