@@ -58,20 +58,22 @@ body {
   z-index: 0;
 }
 
+.moon {
+  visibility: hidden;
+}
 /* Move slider when dark mode is active */
 [data-theme="dark"] .slider {
   transform: translateX(30px);
+  .sun {
+    visibility: hidden;
+  }
+  .moon {
+    visibility: visible;
+  }
 }
 .icon {
   font-size: 16px;
   z-index: 1;
-  visibility: visible;
-}
-.sun:([data-theme="dark']) {
-  visibility: hidden;
-}
-.moon:not([data-theme="dark"]) {
-  visibility:hidden;
 }
 /*borrowed*/
 .navbar {
