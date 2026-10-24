@@ -66,6 +66,9 @@ body {
   font-size: 16px;
   z-index: 1;
 }
+.sun {
+  visibility: 0;
+}
 /*borrowed*/
 .navbar {
     padding: 20px;
