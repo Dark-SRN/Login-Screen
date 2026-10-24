@@ -71,6 +71,10 @@ body {
   opacity: 0;
 }
 
+.sun:not([data-theme="dark"]) {
+  opacity: 100;
+}
+
 [data-theme="dark"] .moon {
   opacity: 100;
 }
