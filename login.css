@@ -64,7 +64,7 @@ body {
 }
 .icon {
   font-size: 16px;
-  position: relative;
+  position: absolute;
 }
 /*borrowed*/
 [data-theme="dark"] .sun {
