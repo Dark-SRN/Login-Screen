@@ -65,9 +65,13 @@ body {
 .icon {
   font-size: 16px;
   z-index: 1;
+  visibility: visible;
 }
-.sun {
+.sun:([data-theme="dark']) {
   visibility: hidden;
+}
+.moon:not([data-theme="dark"]) {
+  visibility:hidden;
 }
 /*borrowed*/
 .navbar {
