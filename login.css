@@ -71,6 +71,9 @@ body {
 :not([data-theme="dark"]) .moon {
   visibility: hidden;
 }
+[data-them="dark"] .moon {
+  visibility: visible;
+}
 /*borrowed*/
 .navbar {
     padding: 20px;
