@@ -67,7 +67,7 @@ body {
   z-index: 1;
 }
 .sun {
-  visibility: 0;
+  visibility: hidden;
 }
 /*borrowed*/
 .navbar {
