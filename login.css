@@ -67,22 +67,6 @@ body {
   z-index: 1;
 }
 /*borrowed*/
-.sun {
-  opacity: 0;
-}
-
-.sun:not([data-theme="dark"]) {
-  opacity: 100;
-}
-
-.moon {
-  opacity: 100;
-}
-
-.moon:not([data-theme="dark"]) {
-  opacity:0 ;
-}
-
 .navbar {
     padding: 20px;
     border-bottom: 2px solid var(--border-color);
