@@ -22,6 +22,18 @@
   --shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 /* borrowed from Gemini*/
+.sun {
+  display: block;
+}
+[data-theme="dark"] .sun {
+  display: none;
+}
+.moon {
+  display: none;
+}
+[data-theme="dark"] .moon {
+  display: block;
+}
 
 body {
     background-color: var(--bg-color);
