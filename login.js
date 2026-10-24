@@ -1,6 +1,10 @@
 const div = document.querySelector('#welcome');
 const action = document.querySelector('#theme-toggle')
 
+if (!sessionStorage.getItem('username')) {
+    window.location.href = "index.html";
+}
+    
 document.body.setAttribute('data-theme', localStorage.getItem('theme'));
 if (sessionStorage.getItem('login') === 'true') {
     div.textContent = `Welcome Back, ${sessionStorage.getItem('username')}`;
