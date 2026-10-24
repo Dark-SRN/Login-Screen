@@ -99,4 +99,8 @@ body {
   .navbar {
     padding: 12px 16px; /* Prevents navbar from feeling too bulky on mobile */
   }
+  h1 {
+    font-size: 1.75rem; /* This matches standard h2 sizing */
+  }
+}
 }
