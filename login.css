@@ -62,22 +62,20 @@ body {
 [data-theme="dark"] .slider {
   transform: translateX(30px);
 }
- .icon {
-  font-size: 16px;
-  z-index: 1;
-}
 /*borrowed*/
 [data-theme="dark"] .sun {
   z-index: -11;
 }
 .sun:not([data-theme="dark"]) {
   z-index: 1;
+  font-size: 16px;
 }
 .moon:not([data-theme="dark"]) {
   z-index: -10;
 }
 [data-theme="dark"] .moon {
   z-index: 1;
+  font-size: 16px;
 }
 .navbar {
     padding: 20px;
