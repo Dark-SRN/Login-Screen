@@ -68,8 +68,11 @@ body {
 [data-theme="dark"] .sun {
   visibility: hidden;
 }
- .moon:not([data-theme]){
+.moon{
   visibility: hidden;
+}
+[data-theme="dark"] .moon {
+  visibility: visible;
 }
 /*borrowed*/
 .navbar {
